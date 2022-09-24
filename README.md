@@ -49,7 +49,7 @@
 }}%%
 
 gitGraph
-       commit id: "Born"
+       commit id: "Birth"
        
        branch develop order: 3
        checkout develop
@@ -67,16 +67,16 @@ gitGraph
        commit id: "Middle School"
        
        checkout scout
-       commit id: "Explorers Scout"
+       commit id: "Explorers"
        
        checkout develop
        commit id: "High School"
        
        checkout scout
-       commit id: "Rover Scouts"
+       commit id: "Rovers"
        
        checkout main
-       merge develop tag: "Scientific HSDG"
+       merge develop tag: "Scientific HSD"
        commit id: "Start University"
        
        branch test order: 4
@@ -91,7 +91,7 @@ gitGraph
        commit id: "Bonaveri"
        
        checkout scout
-       commit id: "Scout Salute"
+       commit id: "Scouts’ Salute"
        
        checkout main
        merge scout
